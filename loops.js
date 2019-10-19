@@ -17,14 +17,13 @@ function whileLoop(n) {
   return "done";
 }
 
-var  i=0;
+var i = 0
 
-function doWhileLoop(num){
-
+function doWhileLoop(num) {
   do {
-    console.log ("I run once regardless.")
-    i++;
+    console.log("I run once regardless")
+    i++
   }
-  while (i<=num);
+  while (i <= num)
 
 }
